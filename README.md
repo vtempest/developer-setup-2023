@@ -8,8 +8,8 @@ Setup fish, git, node, vim, ssh, docker, sudo
 
 ### Shortcuts
 
-| Command | Description ||
-|| --- | --- ||
+| Command | Description |
+| --- | --- |
 |setup_sudo | use sudo without password|
 |setup_ssh | enable pubkey/pw login|
 |setup_docker | sets up docker-compose script|
