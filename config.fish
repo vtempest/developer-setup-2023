@@ -36,7 +36,7 @@ alias sync_with_remote_folder="rsync -azP -h --delete --exclude-from=.gitignore 
 
 alias i="sudo apt install -y"
 alias un="sudo apt remove -y"
-
+alias apps="apt list --installed | cut -d "/" -f1 | sed -z 's/\n/ /g'"
 alias list_installed="sudo apt install -y aptitude; aptitude search '~i!~M'"
 alias diskspace="sudo du -cks * | sort -rn | head -11"
 
