@@ -1,4 +1,5 @@
 ## Developer Server Shell Setup 2023
+![Demo](https://i.imgur.com/pMGAyFs.gif)
 
 Setup fish, git, node, vim, ssh, docker, sudo
 
