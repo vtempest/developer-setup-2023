@@ -2,9 +2,13 @@
 
 Setup fish, git, node, vim, ssh, docker, sudo
 
+
 ### Fish Shell Greeting Example
 
 👤admin@ubuntu-jammy-1 🌎35.224.78.10 💻Ubuntu 22.04.1 LTS 📁46% 📈Intel(R) Xeon(R) CPU @ 2.20GHz 🔝2% sshd
+
+![Demo](https://i.imgur.com/pMGAyFs.gif)
+
 
 ### Shortcuts
 
@@ -16,7 +20,7 @@ Setup fish, git, node, vim, ssh, docker, sudo
 |setup_git | setup commits and ssh key to github.com|
 |gg | force commit git repo|
 |sync_with_remote_folder | sync local with remote using [command] user@host.com:~/folder|
-|i | apt install|
+|i | apt install, type word then TAB to search in all available|
 |un | apt uninstall|
 |list_installed | list installed packages |
 |diskspace |  disk % filled|
