@@ -26,6 +26,7 @@ alias setup_git="git config --global user.name 'user';
   echo 'https://github.com/settings/ssh';"
 
 
+alias setup_node="curl -fsSL https://deb.nodesource.com/setup_16.x | sudo -E bash - ; sudo apt-get install -y nodejs"
 
 #commands
 alias gg="git add --all . ; git commit -a -m '.' ; git push -u -f origin master;"
