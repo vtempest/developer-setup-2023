@@ -4,8 +4,9 @@ alias setup="sudo apt update; sudo apt -y upgrade; \
   sudo apt install -y fish git bind9-host nodejs npm  rsync; \
   git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime; sh ~/.vim_runtime/install_awesome_vimrc.sh; \
    curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish; \
-  sudo rm  /etc/motd; sudo rm -rf  /etc/update-motd.d; touch ~/.hushlogin; git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf; \
-  ~/.fzf/install "
+  sudo rm  /etc/motd; sudo rm -rf  /etc/update-motd.d; touch ~/.hushlogin; "
+  
+  #git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf; ~/.fzf/install "
 
 # sudo su
 alias setup_sudo="sudo usermod -aG sudo $USER;\
