@@ -14,10 +14,7 @@ alias setup_sudo="sudo usermod -aG sudo $USER; echo 'sudo visudo /etc/sudoers; $
 
 alias setup_ssh="sed -re 's/^(PasswordAuthentication)([[:space:]]+)no/\1\2yes/' -i.`date -I` /etc/ssh/sshd_config; sudo service ssh restart;"
 
-alias setup_docker="sudo mkdir -p /etc/apt/keyrings; \
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg; \
-sudo echo 'deb [arch=(dpkg --print-architecture) signed-by=/etc/apt/keyrings/docker.gpg] https://download.docker.com/linux/ubuntu (lsb_release -cs) stable'| sudo tee /etc/apt/sources.list.d/docker.list > /dev/null; \
- sudo apt-get update; sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin docker-compose"
+alias setup_docker="curl -fsSL https://test.docker.com -o test-docker.sh; sh test-docker.sh"
  
 alias setup_git="git config --global user.name 'user';
   git config --global user.email 'user@example.com';
